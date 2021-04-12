@@ -307,12 +307,8 @@ class App {
   reset() {
     localStorage.removeItem("workouts");
     location.reload();
-    newFeature();
   }
 }
 
 const app = new App();
 
-const newFeature = function () {
-  console.log("Welcome Aboard!");
-};
